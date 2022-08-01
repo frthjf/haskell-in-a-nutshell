@@ -8,7 +8,11 @@ export default {
   },
   methods: {
     async connect() {
-      this.$backend.connectToBinder()
+      const binder = 'https://mybinder.org';
+      const repo = 'gibiansky/IHaskell';
+      const ref = 'mybinder'
+      
+      this.$backend.connectToBinder(repo, ref, binder, (e) => {console.log(e)})
     }
   }
 }
