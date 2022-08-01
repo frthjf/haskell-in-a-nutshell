@@ -1,0 +1,25 @@
+{
+  "name": "haskell-in-a-nutshell",
+  "version": "1.0.0",
+  "description": "A haskell tutorial in an interactive (nut)shell",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frthjf/haskell-in-a-nutshell.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frthjf/haskell-in-a-nutshell/issues"
+  },
+  "homepage": "https://github.com/frthjf/haskell-in-a-nutshell#readme",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.4",
+    "vue": "^3.2.37"
+  },
+  "dependencies": {
+    "@frthjf/jupyter-client": "^1.0.0"
+  }
+}
